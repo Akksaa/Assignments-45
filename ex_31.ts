@@ -1,3 +1,6 @@
+//ex 31: No Users:
+//solve:
+
 let userNames : string[]= ["Marrie", "Nick", "Admin", "Alia", "Serrah"];
 
 function greeting(usernames: string[]) : void {
@@ -13,5 +16,7 @@ function greeting(usernames: string[]) : void {
 
 } else {
     console.log(`hello! ${userNames[i]}, thank you for logging in again.`);
-}}}
+}}};
+
+userNames = [];
 greeting(userNames);

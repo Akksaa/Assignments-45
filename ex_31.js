@@ -1,4 +1,6 @@
 "use strict";
+//ex 31: No Users:
+//solve:
 Object.defineProperty(exports, "__esModule", { value: true });
 let userNames = ["Marrie", "Nick", "Admin", "Alia", "Serrah"];
 function greeting(usernames) {
@@ -15,4 +17,6 @@ function greeting(usernames) {
         }
     }
 }
+;
+userNames = [];
 greeting(userNames);

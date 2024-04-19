@@ -3,8 +3,8 @@
 //(a)toUpperCase:
 //solve:
 Object.defineProperty(exports, "__esModule", { value: true });
-let randomName = "Faris";
-console.log(`uppercase:`, randomName.toUpperCase());
+let randomName = "Faris ahmed";
+console.log(`Uppercase:`, randomName.toUpperCase());
 //(b)toLowerCase:
 //solve:
 console.log(`Lowercase:`, randomName.toLowerCase());
