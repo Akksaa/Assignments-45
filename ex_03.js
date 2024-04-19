@@ -7,7 +7,7 @@ let randomName = "Faris";
 console.log(`uppercase:`, randomName.toUpperCase());
 //(b)toLowerCase:
 //solve:
-console.log(`lowercase:`, randomName.toLowerCase());
+console.log(`Lowercase:`, randomName.toLowerCase());
 //(c)toTitleCase:
 //solve:
-console.log(randomName.replace(/\b\w/g, (char) => char.toUpperCase()));
+console.log(`Titlecase:`, randomName.replace(/\b\w/g, (char) => char.toUpperCase()));
